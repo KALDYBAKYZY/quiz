@@ -1,14 +1,19 @@
 Documentation for "Quiz Game with Images" Project
+
 Project Description
+
 "Quiz Game with Images" is a web-based application that presents a quiz with questions where the answers are provided in the form of images. Users select one of the offered options, and the system checks the correctness of the answer. At the end of the game, the overall result is displayed.
 Key Features
-1.	Displaying questions with answer choices in image format.
-2.	Highlighting the correct and incorrect answers after selection.
-3.	Scoring points for correct answers.
-4.	"Restart Quiz" button for starting the game over.
-5.	Cross-browser responsive design.
+
+Displaying questions with answer choices in image format.
+Highlighting the correct and incorrect answers after selection.
+Scoring points for correct answers.
+"Restart Quiz" button for starting the game over.
+Cross-browser responsive design.
 Project File Structure
-HTML: final.html
+
+HTML: index.html
+Main file containing the structure of the webpage.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +39,7 @@ HTML: final.html
 </body>
 </html>
 CSS: style2.css
+Stylesheet for the application's appearance.
 body {
   display: flex;
   justify-content: center;
@@ -134,6 +140,7 @@ h1 {
   border: none;
 }
 JavaScript: script2.js
+Script handling the quiz logic.
 const quizQuestions = [
     {
       question: "Which of these is the Eiffel Tower?",
@@ -222,15 +229,10 @@ nextButton.addEventListener("click", () => {
     showScore();
   }
 });
-loadQuestion();
-Installation and Setup
-1.	Clone the repository or download the files.
-2.	Place all files in a single directory.
-3.	Open index.html in your browser to start the quiz game
-File Structure
 
-quiz-project/
-├── index.html
-├── style2.css
-├── script2.js
-├── images
+loadQuestion();
+
+Installation and Setup
+Clone the repository or download the files.
+Place all files in a single directory.
+Open index.html in your browser to start the quiz game.
